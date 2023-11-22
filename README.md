@@ -13,15 +13,15 @@ If you prefer to run the Invoice Management System locally on your machine, foll
     ```
 2. Change the current directory to the project folder:
     ```
-    cd invoice-generato
+    -cd invoice-generator
     ```
 3. Install project dependencies by running:
     ```
-    npm install
+   -npm install
     ```
 4. Start the application with the following command:
     ```
-    npm start
+    -npm start
     ```
 5. Open your web browser and visit http://localhost:3000/ to access the Invoice Management System.
 
