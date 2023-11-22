@@ -2,8 +2,7 @@
 An Invoice Management System project built using `React.js`, `Redux`, `Redux Toolkit` & `React-Bootstrap`.
 
 You can access the deployed Invoice Management System directly by visiting the following URL:
-"xyz"
-
+(https://invoice-generator-sand.vercel.app/)
 # Setps To Run Locally
 If you prefer to run the Invoice Management System locally on your machine, follow these steps:
 
@@ -30,7 +29,7 @@ If you prefer to run the Invoice Management System locally on your machine, foll
 - Users can easily view a list of their invoices with essential details like invoice number, name, and total amount.
 
 **Edit Invoices**:
-- Users have the ability to edit existing invoices to make updates or corrections to client details, itemized services, prices, or quantities.
+- Users can edit existing invoices to make updates or corrections to client details, itemized services, prices, or quantities.
 
 **Copy Invoices**:
 - Application allows users to create duplicate copies of invoices, making it convenient for recurring invoices.
