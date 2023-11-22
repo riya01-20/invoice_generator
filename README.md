@@ -1,36 +1,42 @@
-# Invoice Generator - React App
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+# Invoice Management System
+An Invoice Management System project built using `React.js`, `Redux`, `Redux Toolkit` & `React-Bootstrap`.
 
-An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses [jspdf-react](https://www.npmjs.com/package/jspdf-react) to capture the data from the modal and covert it from canvas -> pdf.
+You can access the deployed Invoice Management System directly by visiting the following URL:
+"xyz"
 
-### Live Demo
-https://invoice-generator-react.netlify.app/
+# Setps To Run Locally
+If you prefer to run the Invoice Management System locally on your machine, follow these steps:
 
-### Screenshots
-<img src="https://i.imgur.com/wRetnxk.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://i.imgur.com/AZChaei.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://i.imgur.com/Bz3K3DE.png" style="max-width: 100px; width: 100%; height: auto;">
+1. Clone the repository using the following command:
+    ```
+  https://github.com/riya01-20/invoice_generator.git
+    ```
+2. Change the current directory to the project folder:
+    ```
+    cd invoice-generato
+    ```
+3. Install project dependencies by running:
+    ```
+    npm install
+    ```
+4. Start the application with the following command:
+    ```
+    npm start
+    ```
+5. Open your web browser and visit http://localhost:3000/ to access the Invoice Management System.
 
-### Installation
+# Features:
+**View Invoices**: 
+- Users can easily view a list of their invoices with essential details like invoice number, name, and total amount.
 
-```
-git clone https://github.com/johnuberbacher/invoice-generator
+**Edit Invoices**:
+- Users have the ability to edit existing invoices to make updates or corrections to client details, itemized services, prices, or quantities.
 
-npm install
+**Copy Invoices**:
+- Application allows users to create duplicate copies of invoices, making it convenient for recurring invoices.
 
-npm start / npm run build
-```
+**Delete Invoices**:
+- Users can delete invoices that are no longer needed, helping them maintain a clean and organized.
 
-### To-Do
-- [x] Finish parsing data into Preview Modal
-
-- [x] Currency Picker
-
-- [x] Calculate Tax and Discounts
-
-- [ ] Store invoices in Firebase DB
-
-
-### Meta
-
-John Uberbacher – [johnuberbacher.com](https://johnuberbacher.com)
+**Download PDF Invoices**:
+- Users can generate and download PDF versions of their invoices, which are commonly used for sharing with clients and for record-keeping.
